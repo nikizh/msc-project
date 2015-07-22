@@ -4,9 +4,18 @@ _Note: These instructions are for OS X_
 ## Requirements
 
 * Homebrew (Installation instructions - http://brew.sh)
-* Python 2.7+
 
-## How to install RDKit
+## Install Python
+
+```console
+brew install python
+```
+
+### Install virtualenvwrapper _(optional)_
+
+https://virtualenvwrapper.readthedocs.org/en/latest/
+
+## Install RDKit
 
 ### Install Boost and Boost Python
 ```console
@@ -22,7 +31,7 @@ brew install boost-python
 brew install rdkit
 ```
 
-### Virtualenv (optional)
+### Virtualenv _(optional)_
 _If you use virtual environment you have to copy RDKit to the virualenv_
 
 ```console
