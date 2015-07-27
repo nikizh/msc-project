@@ -58,3 +58,6 @@ target/
 
 # Ignore checkpoints
 .ipynb_checkpoints
+
+# Ignore dl dir
+dl/
