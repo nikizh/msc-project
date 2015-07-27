@@ -43,3 +43,9 @@ _If you use virtual environment you have to copy RDKit to the virualenv_
 >> cd /usr/local/Cellar/rdkit/2015.03.1/lib/python2.7/site-packages/
 >> cp -r . /Users/YOUR_USER/.virtualenvs/YOUR_VENV_NAME/lib/python2.7/site-packages/
 ```
+
+## Install R and Rchemcpp
+* R-project: https://www.r-project.org
+* Install Rchemcpp package: http://www.bioinf.jku.at/software/Rchemcpp/
+
+*Required for the experiments with Tanimoto kernel*
