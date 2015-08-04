@@ -40,8 +40,8 @@ brew install rdkit --with-inchi
 _If you use virtual environment you have to copy RDKit to the virualenv_
 
 ```console
->> cd /usr/local/Cellar/rdkit/2015.03.1/lib/python2.7/site-packages/
->> cp -r . /Users/YOUR_USER/.virtualenvs/YOUR_VENV_NAME/lib/python2.7/site-packages/
+cd /usr/local/Cellar/rdkit/2015.03.1/lib/python2.7/site-packages/
+cp -r . /Users/YOUR_USER/.virtualenvs/YOUR_VENV_NAME/lib/python2.7/site-packages/
 ```
 
 ## Install R and Rchemcpp
@@ -49,3 +49,17 @@ _If you use virtual environment you have to copy RDKit to the virualenv_
 * Install Rchemcpp package: http://www.bioinf.jku.at/software/Rchemcpp/
 
 *Required for the experiments with Tanimoto kernel*
+
+## Install MongoDB
+
+```console
+brew install mongodb
+```
+
+To run MongoDB from the Terminal execute:
+
+```console
+mongod
+```
+
+*Required for the experiments with data from [MassBank](http://massbank.jp)*
