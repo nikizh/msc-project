@@ -4,9 +4,9 @@
 
 Title  | Description
 ------ | -------
-[Regression (Linear)][1] | Attempt to reproduce the model from the paper<sup>[1](#paper)</sup>
-[Regression (GradientBoostingRegressor)][2] | [Gradient Boosting for regression](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html) on the data from the paper<sup>[1](#paper)</sup>
-[Regression (GPy)][3] | Gaussian Process Regression on the data from the paper<sup>[1](#paper)</sup>
+[Regression (Linear)][1] | Attempt to reproduce the model from the paper<sup>[1](#user-content-paper)</sup>
+[Regression (GradientBoostingRegressor)][2] | [Gradient Boosting for regression](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html) on the data from the paper<sup>[1](#user-content-paper)</sup>
+[Regression (GPy)][3] | Gaussian Process Regression on the data from the paper<sup>[1](#user-content-paper)</sup>
 [Regression (GPy+GU+HMDB)][4] | Gaussian Process Regression on GU data and chemical properties from HMDB
 [Regression (GPy+GU+PubChem)][5] | Gaussian Process Regression on GU data and chemical properties from PubChem
 [Regression (GPy+HMDB)][6] | Gaussian Process Regression on chemical properties from HMDB
@@ -52,7 +52,7 @@ Title  | Description
 
 [<a name="paper">1</a>] [Virtual quantification of metabolites by capillary electrophoresis-electrospray ionization-mass spectrometry: predicting ionization efficiency without chemical standards.](http://www.ncbi.nlm.nih.gov/pubmed/19275147)
 
-# Setup
+# Environment Setup
 _Note: These instructions are for OS X_
 
 * **Prerequisites:**
