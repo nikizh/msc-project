@@ -48,6 +48,10 @@ Title  | Description
 [41]: ./GP_(Tanimoto).ipynb
 [42]: ./GP_(Tanimoto+GU).ipynb
 
+<hr />
+
+[<a name="paper">1</a>] [Virtual quantification of metabolites by capillary electrophoresis-electrospray ionization-mass spectrometry: predicting ionization efficiency without chemical standards.](http://www.ncbi.nlm.nih.gov/pubmed/19275147)
+
 # Setup
 _Note: These instructions are for OS X_
 
@@ -113,7 +117,3 @@ mongod
 ```
 
 *Required for the experiments with data from [MassBank](http://massbank.jp)*
-
-<hr />
-
-[<a name="paper">1</a>] [Virtual quantification of metabolites by capillary electrophoresis-electrospray ionization-mass spectrometry: predicting ionization efficiency without chemical standards.](http://www.ncbi.nlm.nih.gov/pubmed/19275147)
