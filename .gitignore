@@ -61,3 +61,7 @@ target/
 
 # Ignore dl dir
 dl/
+drafts/
+
+# Ignore data files starting with _
+data/_*
