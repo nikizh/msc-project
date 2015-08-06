@@ -59,7 +59,7 @@ target/
 # Ignore checkpoints
 .ipynb_checkpoints
 
-# Ignore dl dir
+# Ignore dl and drafs dirs
 dl/
 drafts/
 
