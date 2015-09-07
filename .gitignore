@@ -59,9 +59,13 @@ target/
 # Ignore checkpoints
 .ipynb_checkpoints
 
-# Ignore dl and drafs dirs
+# Ignore dirs
 dl/
 drafts/
+figures/
 
 # Ignore data files starting with _
 data/_*
+
+# PyCharm
+.idea
